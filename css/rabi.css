@@ -1,0 +1,32 @@
+/* navigation */
+#navbar{
+    flex-direction: column;
+}
+#navbar::before{
+    width: 1024px;
+}
+#navbar ul li a{
+    font-size: 1rem;
+    padding: 0px 7px;
+    padding-bottom: 10px;
+}
+/* home section */
+#home{
+    padding: 5px 27px;
+    height: 533px;
+}
+.btn{
+    padding: 21px 31px;
+    margin: 23px;
+}
+#home::before{
+    /* position: absolute; */
+    width: 1024px;
+    /* text-align: center; */
+}
+#home h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
